@@ -1,0 +1,31 @@
+<div class="flow-root">
+  <ul role="list" class="-mb-8">
+    <li *ngFor="let ei of experienceItems">
+      <app-experience-item
+        [company]="ei.company"
+        [startYear]="ei.startYear"
+        [endYear]="ei.endYear"
+        [bullets]="ei.bullets"
+      ></app-experience-item>
+    </li>
+    <li>
+      <div class="relative pb-8">
+        <div class="relative flex items-start space-x-3">
+          <div>
+            <div class="relative px-1">
+              <div class="h-8 w-8 bg-white rounded-full ring-4 ring-slate-600 flex items-center justify-center">
+                <i class="fa-solid fa-graduation-cap text-sm"></i>
+              </div>
+            </div>
+          </div>
+          <div class="min-w-0 flex-1 py-1.5">
+            <div class="text-sm text-slate-100">
+              Graduated from University of Southern Indiana
+              <span class="whitespace-nowrap">2d ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

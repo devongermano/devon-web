@@ -1,0 +1,11 @@
+identifier: l179f1z4b5kd9287
+appPort: 1864
+staticPort: 1668
+reloadPort: 1337
+hostName: localhost
+projectName: devon-web
+homeFolder: /Users/devongermano/Desktop/devon.dev/devon.dev-web
+distFolder: ./dist/devon-web
+outDir: /Users/devongermano/Desktop/devon.dev/devon.dev-web/dist/static
+handle404: ''
+allowErrorCollect: true
