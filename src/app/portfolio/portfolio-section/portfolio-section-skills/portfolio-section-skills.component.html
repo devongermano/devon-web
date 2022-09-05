@@ -1,5 +1,8 @@
-<p class="text-white text-2xl mb-3">Front End</p>
-  <div [ngsRevealSet]="{ reset: false }" [ngsInterval]="100" [ngsSelector]="'.animate'" class="mb-4 grid grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 md:gap-x-6">
+<app-h4 class="dev-header" text="Front End"></app-h4>
+<div [ngsRevealSet]="{ reset: false }"
+     [ngsInterval]="100"
+     [ngsSelector]="'.animate'"
+     class="my-4 grid grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 md:gap-x-6">
     <app-skill-item
       class="animate"
       ngsReveal
@@ -19,8 +22,11 @@
       skillYears="3"
     ></app-skill-item>
   </div>
-  <p class="text-white text-2xl mb-3">Back End</p>
-  <div [ngsRevealSet]="{ reset: false }" [ngsInterval]="100" [ngsSelector]="'.animate'" class="grid grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 md:gap-x-6">
+<app-h4 class="dev-header" text="Back End"></app-h4>
+  <div [ngsRevealSet]="{ reset: false }"
+       [ngsInterval]="100"
+       [ngsSelector]="'.animate'"
+       class="my-4 grid grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 md:gap-x-6">
     <app-skill-item
       class="animate"
       ngsReveal

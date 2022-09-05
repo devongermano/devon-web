@@ -2,5 +2,36 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-//@import '~quill/dist/quill.bubble.css';
-@import '~quill/dist/quill.snow.css';
+
+
+.dev-paragraph {
+  @apply text-base text-slate-800 dark:text-white/90;
+}
+
+.dev-header {
+  @apply text-black dark:text-white font-bold tracking-tight;
+}
+
+.dev-subheader {
+  @apply text-slate-800 dark:text-slate-200 font-bold tracking-tight;
+}
+
+.dev-h1 {
+  @apply text-4xl md:text-5xl;
+}
+
+.dev-h2 {
+  @apply text-3xl md:text-4xl;
+}
+
+.dev-h3 {
+  @apply text-2xl md:text-3xl;
+}
+
+.dev-h4 {
+  @apply text-xl md:text-2xl;
+}
+
+.dev-h5 {
+  @apply text-lg md:text-xl;
+}

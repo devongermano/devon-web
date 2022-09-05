@@ -1,16 +1,15 @@
-<div class="flex flex-col bg-slate-800 rounded-xl p-3 shadow-md">
+<div class="flex flex-col border-2 border-gray-700/20 bg-white rounded-xl p-4">
 
   <div class="flex flex-row items-center flex-none mb-3">
     <div class="flex items-center justify-center w-8 h-8 mr-3">
       <img [src]="skillLogoPath" class="h-full">
     </div>
-    <p class="text-xl text-slate-100">{{ skillName }}</p>
+    <app-h5 class="dev-header" [text]="skillName"></app-h5>
   </div>
 
-  <div class="rounded-full h-6 w-full" style="background: #0f1625">
-    <div class="h-full rounded-full flex items-center bg-sky-700" [ngStyle]="{'width': getYearsPercent()}">
-      <p class="ml-auto text-xs text-sky-100 font-bold px-3">{{ skillYears }} years</p>
+  <div class="rounded-full h-6 w-full bg-gray-200">
+    <div class="h-full rounded-full flex items-center bg-black" [ngStyle]="{'width': getYearsPercent()}">
+      <p class="ml-auto text-xs text-sky-100 font-bold px-4">{{ skillYears }} years</p>
     </div>
   </div>
 </div>
-

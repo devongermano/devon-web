@@ -2,11 +2,11 @@ import {Component, Input, OnInit} from '@angular/core';
 import { Required } from "../../tools/decorators";
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  selector: 'app-h1',
+  templateUrl: './h1.component.html',
+  styleUrls: ['./h1.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class H1Component implements OnInit {
 
   @Input() @Required text!: string;
 

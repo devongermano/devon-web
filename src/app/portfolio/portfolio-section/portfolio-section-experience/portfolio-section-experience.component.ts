@@ -9,7 +9,7 @@ export class PortfolioSectionExperienceComponent implements OnInit {
 
   experienceItems = [
     {
-      company: "VERB",
+      company: "Verb",
       startYear: "2021",
       endYear: "Present",
       bullets: [

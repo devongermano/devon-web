@@ -8,20 +8,20 @@
 
     <app-portfolio-section>
       <div [ngsRevealSet]="{ reset: false }" [ngsInterval]="100" [ngsSelector]="'.animate'" class="flex flex-col md:flex-row items-center md:space-x-8">
-        <div class="shadow-md animate relative mb-8 md:mb-0 flex-none rounded-full h-44 w-44 bg-slate-800 flex justify-center items-center">
+        <div class="bg-white border-2 border-gray-700/20 animate relative mb-8 md:mb-0 flex-none rounded-full h-44 w-44 flex justify-center items-center">
           <img class="h-24" src="assets/devon-memoji.png">
         </div>
         <div class="flex-auto">
           <div class="mb-5">
-            <app-header text="Devon Germano"></app-header>
-            <p class="animate text-white text-3xl text-slate-200 font-bolder">Sr. Software Engineer</p>
+            <app-h1 class="animate dev-header" text="Devon Germano"></app-h1>
+            <app-h2 class="animate dev-subheader" text="Sr. Software Engineer"></app-h2>
           </div>
           <div class="mb-10">
             <app-paragraph class="animate">Full stack Lead Engineer who uses test-driven development to write efficient and user-friendly code. Highly collaborative with a unique perspective and solid problem-solving abilities. Passionate about producing engaging, cutting-edge, intuitive products. </app-paragraph>
           </div>
           <div class="flex flex-col">
             <div>
-              <a href="https://on.sprintful.com/devongermano" class="rounded-full bg-slate-900 px-5 py-3 text-white ring-slate-700 ring-2">Schedule a Meeting</a>
+              <a href="https://on.sprintful.com/devongermano" class="animate rounded-full px-5 py-3 ring-slate-700/20 ring">Schedule a Meeting</a>
             </div>
           </div>
         </div>
@@ -30,7 +30,7 @@
 
     <app-portfolio-section>
       <app-portfolio-section-header>
-        <app-header text="8 Years of Experience"></app-header>
+        <app-h1 class="dev-header" text="8 Years of Experience"></app-h1>
       </app-portfolio-section-header>
       <app-portfolio-section-body>
         <app-portfolio-section-experience></app-portfolio-section-experience>
@@ -39,16 +39,16 @@
 
     <app-portfolio-section>
       <app-portfolio-section-header>
-        <app-header text="Skills"></app-header>
+        <app-h1 class="dev-header" text="Skills"></app-h1>
       </app-portfolio-section-header>
-      <app-portfolio-section-body>
+      <app-portfolio-section-body class="test">
         <app-portfolio-section-skills></app-portfolio-section-skills>
       </app-portfolio-section-body>
     </app-portfolio-section>
 
     <app-portfolio-section>
       <app-portfolio-section-header>
-        <app-header text="Frequently asked questions"></app-header>
+        <app-h1 class="dev-header" text="Frequently asked questions"></app-h1>
         <app-paragraph class="mt-2">Common questions I get from recruiters! Have a question that's not listed? <a [href]="emailLink" class="font-medium text-sky-500 hover:text-sky-400">Shoot me an email</a> and I'll get back to you ASAP!</app-paragraph>
       </app-portfolio-section-header>
       <app-portfolio-section-body>
