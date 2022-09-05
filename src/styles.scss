@@ -37,5 +37,5 @@
 }
 
 .button-primary {
-  @apply rounded-full px-5 py-4 bg-black text-white font-bold hover:bg-gray-900;
+  @apply rounded-full px-5 py-4 bg-black text-white font-bold hover:bg-gray-900 dark:bg-white dark:text-black;
 }
