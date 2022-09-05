@@ -6,6 +6,7 @@ import { H1Component } from "./h1/h1.component";
 import { H3Component } from './h3/h3.component';
 import { H4Component } from './h4/h4.component';
 import { H5Component } from './h5/h5.component';
+import { PrimaryButtonComponent } from './primary-button/primary-button.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { H5Component } from './h5/h5.component';
     H3Component,
     H4Component,
     H5Component,
+    PrimaryButtonComponent,
   ],
   imports: [
     CommonModule

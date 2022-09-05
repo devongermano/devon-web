@@ -1,6 +1,8 @@
 
 <div class="py-5 px-5 flex items-center">
-  <a href="https://on.sprintful.com/devongermano" class="rounded-full bg-slate-900 px-5 py-2 text-white ring-slate-700 ring-2 ml-auto">Download Resume</a>
+  <a href="https://on.sprintful.com/devongermano" class="rounded-full px-5 py-2 text-zinc-800 bg-zinc-200 ml-auto">
+    <i class="fa-solid fa-download"></i>
+  </a>
 </div>
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -8,7 +10,7 @@
 
     <app-portfolio-section>
       <div [ngsRevealSet]="{ reset: false }" [ngsInterval]="100" [ngsSelector]="'.animate'" class="flex flex-col md:flex-row items-center md:space-x-8">
-        <div class="bg-white border-2 border-gray-700/20 animate relative mb-8 md:mb-0 flex-none rounded-full h-44 w-44 flex justify-center items-center">
+        <div class="bg-zinc-200 animate relative mb-8 md:mb-0 flex-none rounded-full h-44 w-44 flex justify-center items-center">
           <img class="h-24" src="assets/devon-memoji.png">
         </div>
         <div class="flex-auto">
@@ -21,7 +23,7 @@
           </div>
           <div class="flex flex-col">
             <div>
-              <a href="https://on.sprintful.com/devongermano" class="animate rounded-full px-5 py-3 ring-slate-700/20 ring">Schedule a Meeting</a>
+              <a href="https://on.sprintful.com/devongermano" class="button-primary">Schedule a Meeting</a>
             </div>
           </div>
         </div>
@@ -41,8 +43,8 @@
       <app-portfolio-section-header>
         <app-h1 class="dev-header" text="Skills"></app-h1>
       </app-portfolio-section-header>
-      <app-portfolio-section-body class="test">
-        <app-portfolio-section-skills></app-portfolio-section-skills>
+      <app-portfolio-section-body>
+        <app-portfolio-section-skills class="shadow-inner test"></app-portfolio-section-skills>
       </app-portfolio-section-body>
     </app-portfolio-section>
 
