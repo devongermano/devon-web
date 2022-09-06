@@ -23,7 +23,7 @@ export class PortfolioSectionExperienceComponent implements OnInit {
     },
     {
       company: "Smile Direct Club",
-      startYear: "2019",
+      startYear: "2020",
       endYear: "2021",
       logo: 'assets/logos/sdc-l.svg',
       color: '#5700ff',
@@ -37,7 +37,7 @@ export class PortfolioSectionExperienceComponent implements OnInit {
     {
       company: "CPH Technologies",
       startYear: "2015",
-      endYear: "2019",
+      endYear: "2020",
       logo: 'assets/logos/cph-dark.svg',
       color: '#ffbb2d',
       bullets: [
