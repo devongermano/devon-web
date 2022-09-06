@@ -3,10 +3,16 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.dev-link {
+  @apply text-zinc-900 font-bold dark:text-zinc-100;
+}
 
+.dev-p-color {
+  @apply text-zinc-800 dark:text-zinc-100
+}
 
-.dev-paragraph {
-  @apply text-base text-zinc-800 dark:text-zinc-100;
+.dev-p-default-sizing {
+  @apply text-base;
 }
 
 .dev-header {

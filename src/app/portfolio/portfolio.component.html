@@ -7,7 +7,7 @@
 
     <app-portfolio-section>
       <div [ngsRevealSet]="{ reset: false }" [ngsInterval]="100" [ngsSelector]="'.animate'" class="flex flex-col md:flex-row items-center md:space-x-8">
-        <div class="shadow-lg bg-white dark:bg-zinc-800 animate relative mb-8 md:mb-0 flex-none rounded-full h-48 w-48 flex justify-center items-center">
+        <div class="shadow-xl bg-white dark:bg-zinc-800 animate relative mb-8 md:mb-0 flex-none rounded-full h-48 w-48 flex justify-center items-center">
           <img class="h-28" src="assets/devon-memoji.png">
         </div>
         <div class="flex-auto">
@@ -16,14 +16,14 @@
             <app-h3 class="animate dev-subheader" text="Software Engineer"></app-h3>
           </div>
           <div class="mb-10">
-            <app-paragraph class="animate">
+            <p class="animate text-lg dev-p-color">
               Hi! 👋 I’m Devon, a Full Stack, Senior Software Engineer at
-              <a class="text-zinc-900 font-bold" href="https://www.verb.tech/">Verb</a>. I’m passionate about creating performant, well-designed, user-friendly applications.
-            </app-paragraph>
+              <a class="dev-link" href="https://www.verb.tech/">Verb</a>. I’m passionate about creating performant, well-designed, user-friendly applications.
+            </p>
           </div>
           <div class="flex flex-col">
             <div class="animate">
-              <a href="https://on.sprintful.com/devongermano" class="button-primary">Schedule a Meeting</a>
+              <a href="https://on.sprintful.com/devongermano" class="rounded-full font-bold px-5 py-4 text-zinc-800 bg-zinc-200 hover:bg-zinc-300 dark:bg-white dark:hover:bg-zinc-100">Schedule a Meeting</a>
             </div>
           </div>
         </div>
