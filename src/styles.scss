@@ -5,7 +5,7 @@
 
 
 .dev-paragraph {
-  @apply text-base text-slate-800 dark:text-white/90;
+  @apply text-base text-zinc-800 dark:text-zinc-100;
 }
 
 .dev-header {
@@ -13,7 +13,7 @@
 }
 
 .dev-subheader {
-  @apply text-slate-800 dark:text-slate-200 font-bold tracking-tight;
+  @apply text-zinc-800 dark:text-zinc-200 font-bold tracking-tight;
 }
 
 .dev-h1 {
@@ -37,5 +37,5 @@
 }
 
 .button-primary {
-  @apply rounded-full px-5 py-4 bg-black text-white font-bold hover:bg-gray-900 dark:bg-white dark:text-black;
+  @apply rounded-full px-5 py-4 bg-black text-white font-bold hover:bg-zinc-900 dark:bg-white dark:text-black;
 }

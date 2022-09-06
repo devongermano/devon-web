@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'portfolio',
+    title: 'Devon Germano - Portfolio',
     loadChildren: () => import('./portfolio/portfolio.module').then(m => m.PortfolioModule)
   }
 ];

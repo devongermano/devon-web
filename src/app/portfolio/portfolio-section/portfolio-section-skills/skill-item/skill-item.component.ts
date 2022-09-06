@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Required } from "../../tools/decorators";
+import { Required } from "../../../../tools/decorators";
 
 @Component({
   selector: 'app-skill-item',
