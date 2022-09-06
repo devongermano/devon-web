@@ -39,7 +39,7 @@ export class PortfolioSectionExperienceComponent implements OnInit {
       startYear: "2015",
       endYear: "2019",
       logo: 'assets/logos/cph-dark.svg',
-      color: 'orange',
+      color: '#ffbb2d',
       bullets: [
         "Developed and maintained code in Go, Kotlin, Python, C#, Typescript, and JavaScript in a remote environment",
         "Designed, implemented, and maintained a continuous integration and continuous delivery pipeline using Kubernetes, Docker, and CircleCI",
