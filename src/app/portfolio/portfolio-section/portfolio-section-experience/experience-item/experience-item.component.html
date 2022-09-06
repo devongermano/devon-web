@@ -8,8 +8,8 @@
       <app-h4 class="dev-subheader" [text]="company"></app-h4>
       <p class="dev-p-default-sizing dev-p-color-light font-medium">{{ startYear }} → {{ endYear }}</p>
       <div class="mt-2">
-        <ul [ngsRevealSet]="{ reset: false }" [ngsInterval]="100" [ngsSelector]="'.animate'" class="list-disc space-y-2 marker:text-zinc-800 dark:marker:text-white/90">
-          <li class="animate" *ngFor="let bullet of bullets">
+        <ul class="list-disc space-y-2 marker:text-zinc-800 dark:marker:text-white/90">
+          <li *ngFor="let bullet of bullets">
             <app-paragraph>{{ bullet }}</app-paragraph>
           </li>
         </ul>
