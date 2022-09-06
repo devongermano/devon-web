@@ -11,6 +11,10 @@
   @apply text-zinc-800 dark:text-zinc-100
 }
 
+.dev-p-color-light {
+  @apply text-zinc-600 dark:text-zinc-300
+}
+
 .dev-p-default-sizing {
   @apply text-base;
 }

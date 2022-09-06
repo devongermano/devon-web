@@ -1,12 +1,12 @@
 <div class="relative pb-8">
   <span class="absolute top-5 left-6 -ml-px h-full w-0.5 bg-zinc-700/10" aria-hidden="true"></span>
   <div class="relative flex items-start space-x-3">
-    <div class="relative h-12 w-12 rounded-full flex items-center justify-center" [ngStyle]="{'background-color': color, 'border-color': darken(color)}">
+    <div class="relative h-12 w-12 rounded-full flex items-center justify-center" [ngStyle]="{'background-color': color}">
       <img class="w-full p-2" [src]="logo">
     </div>
     <div class="min-w-0 flex-1">
-      <app-h4 class="dev-header" [text]="company"></app-h4>
-      <app-paragraph>{{ startYear }} - {{ endYear }}</app-paragraph>
+      <app-h4 class="dev-subheader" [text]="company"></app-h4>
+      <p class="dev-p-default-sizing dev-p-color-light font-medium">{{ startYear }} → {{ endYear }}</p>
       <div class="mt-2">
         <ul [ngsRevealSet]="{ reset: false }" [ngsInterval]="100" [ngsSelector]="'.animate'" class="list-disc space-y-2 marker:text-zinc-800 dark:marker:text-white/90">
           <li class="animate" *ngFor="let bullet of bullets">
