@@ -5,6 +5,8 @@
         [company]="ei.company"
         [startYear]="ei.startYear"
         [endYear]="ei.endYear"
+        [logo]="ei.logo"
+        [color]="ei.color"
         [bullets]="ei.bullets"
       ></app-experience-item>
     </li>
@@ -13,16 +15,15 @@
         <div class="relative flex items-start space-x-3">
           <div>
             <div class="relative px-1">
-              <div class="h-8 w-8 bg-white rounded-full ring-4 ring-zinc-600 flex items-center justify-center">
+              <div class="h-8 w-8 bg-white rounded-full border-2 border-zinc-700/10 flex items-center justify-center">
                 <i class="fa-solid fa-graduation-cap text-sm"></i>
               </div>
             </div>
           </div>
           <div class="min-w-0 flex-1 py-1.5">
-            <div class="text-sm text-zinc-100">
+            <app-paragraph>
               Graduated from University of Southern Indiana
-              <span class="whitespace-nowrap">2d ago</span>
-            </div>
+            </app-paragraph>
           </div>
         </div>
       </div>

@@ -12,6 +12,8 @@ export class PortfolioSectionExperienceComponent implements OnInit {
       company: "Verb",
       startYear: "2021",
       endYear: "Present",
+      logo: 'assets/logos/verb-l.svg',
+      color: 'black',
       bullets: [
         "Led the development of VERB Live, a live streaming, interactive, serverless application that utilized Node.js, Angular, Redis, Kafka, PostgreSQL, and Docker with a variety of 3rd-party integrations in an AWS production environment",
         "Managed the development of VERB SWIM, a direct-sales enablement platform that utilized Node.js, Nest.js, React, Next.js, and PostgreSQL in an AWS production environment",
@@ -23,6 +25,8 @@ export class PortfolioSectionExperienceComponent implements OnInit {
       company: "Smile Direct Club",
       startYear: "2019",
       endYear: "2021",
+      logo: 'assets/logos/sdc-l.svg',
+      color: '#5700ff',
       bullets: [
         "Worked on projects that utilized several different technologies including Python, Vue.js, Node.js, Django, Redis, PostgreSQL, AWS, and Docker in a remote environment",
         "Collaborated with other developers to identify and implement architectural improvements to existing applications",
@@ -34,6 +38,8 @@ export class PortfolioSectionExperienceComponent implements OnInit {
       company: "CPH Technologies",
       startYear: "2015",
       endYear: "2019",
+      logo: 'assets/logos/cph-dark.svg',
+      color: 'orange',
       bullets: [
         "Developed and maintained code in Go, Kotlin, Python, C#, Typescript, and JavaScript in a remote environment",
         "Designed, implemented, and maintained a continuous integration and continuous delivery pipeline using Kubernetes, Docker, and CircleCI",

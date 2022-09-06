@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: dark) {
+  .dev-dip {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#646464 0.5px, rgba(0, 0, 0, 0.92) 0.5px);
+    background-size: 10px 10px;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .dev-dip {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#868686 0.5px, #ececec 0.5px);
+    background-size: 10px 10px;
+  }
+}
