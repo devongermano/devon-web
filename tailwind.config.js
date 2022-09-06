@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   mode: 'jit', // This is in beta, might break
   purge: {
     enabled: true,
