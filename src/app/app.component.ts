@@ -1,4 +1,5 @@
-import {Component, ElementRef, ViewChild} from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
+import mixpanel from 'mixpanel-browser';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +9,12 @@ import {Component, ElementRef, ViewChild} from '@angular/core';
 export class AppComponent {
   title = 'devon.dev-web';
 
-
-
+  constructor() {
+    mixpanel.init(
+      '2be2b1e4c28af9c62688ec0a481ac9db',
+      {
+        debug: true,
+      }
+    );
+  }
 }
