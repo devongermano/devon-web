@@ -37,6 +37,7 @@
     "@angular-devkit/build-angular": "^14.1.3",
     "@angular/cli": "~14.1.3",
     "@angular/compiler-cli": "^14.1.0",
+    "@scullyio/scully-plugin-flash-prevention": "^2.1.36",
     "@types/jasmine": "~4.0.0",
     "@types/mixpanel-browser": "^2.38.0",
     "@types/quill": "^1.3.10",

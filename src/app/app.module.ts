@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
-import { QuillModule } from "ngx-quill";
+import { HttpClientModule } from "@angular/common/http";
 
 
 @NgModule({
@@ -14,7 +14,11 @@ import { QuillModule } from "ngx-quill";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ScullyLibModule,
+    HttpClientModule,
+    ScullyLibModule.forRoot({
+      useTransferState: true,
+      alwaysMonitor: true,
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
