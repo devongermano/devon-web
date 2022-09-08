@@ -1,17 +1,15 @@
-@media (prefers-color-scheme: dark) {
-  .dev-dip {
-    background-color: #e5e5f7;
-    opacity: 0.8;
-    background-image: radial-gradient(#646464 0.5px, rgba(0, 0, 0, 0.92) 0.5px);
-    background-size: 10px 10px;
-  }
-}
+// Colors
+$bg-color: rgb(237, 237, 237);
+$dot-color: rgb(155, 155, 155);
 
-@media (prefers-color-scheme: light) {
-  .dev-dip {
-    background-color: #e5e5f7;
-    opacity: 0.8;
-    background-image: radial-gradient(#868686 0.5px, #ececec 0.5px);
-    background-size: 10px 10px;
-  }
+// Dimensions
+$dot-size: 1px;
+$dot-space: 10px;
+
+.dev-dip {
+  background:
+    linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+    $dot-color;
+    background-size: $dot-space $dot-space;
 }
