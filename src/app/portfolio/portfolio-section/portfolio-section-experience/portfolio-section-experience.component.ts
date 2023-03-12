@@ -9,7 +9,7 @@ export class PortfolioSectionExperienceComponent implements OnInit {
 
   experienceItems = [
     {
-      company: "Verb",
+      company: "Verb Inc.",
       startYear: "2021",
       endYear: "Present",
       logo: 'assets/logos/verb-l.svg',
