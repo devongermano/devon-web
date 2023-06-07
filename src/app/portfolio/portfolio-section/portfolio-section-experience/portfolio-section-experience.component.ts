@@ -10,21 +10,21 @@ export class PortfolioSectionExperienceComponent implements OnInit {
   experienceItems = [
     {
       company: "Verb Inc.",
-      startYear: "2021",
+      startYear: "2022",
       endYear: "Present",
       logo: 'assets/logos/verb-l.svg',
       color: 'black',
       bullets: [
-        "Led the end-to-end development of a flagship product utilizing cutting-edge technologies such as Node.js, Angular, AWS, Redis, PostgreSQL, and Docker, delivering a superior solution to meet customer needs and business objectives.",
-        "Directed and managed a team of 6 skilled engineers in an Agile environment, driving successful project completion and ensuring quality assurance, scalability, and maintainability of the codebase.",
-        "Designed, developed, and maintained serverless applications utilizing AWS Lambda and the Serverless framework, delivering efficient and cost-effective solutions that aligned with the organization's strategic goals.",
-        "Initiated and oversaw the implementation of key architectural improvements to core applications, leveraging best practices and industry standards to achieve optimal performance, security, and scalability.",
+        "Conceptualized and implemented efficient CI/CD pipelines with AWS CodePipeline and GitHub, optimizing the software development lifecycle. Further enhanced deployment and scaling of applications using AWS CloudFront and Elastic Beanstalk, bolstering system reliability and accelerating delivery timelines.",
+        "Contributed significantly to the full-cycle development of premier products by deftly integrating Node.js, Angular, React, AWS, Redis, MongoDB, and Docker technologies, creating a powerful solutions that fulfilled customer requirements and supported business objectives.",
+        "Drove pivotal architectural enhancements in the Verb LIVE application, leveraging industry best practices to maximize performance, security, and scalability.",
+        "Architected, developed, and maintained high-performing serverless applications using Nx, AWS Lambda, and the Serverless framework, delivering cost-effective solutions that seamlessly aligned with the company's strategic objectives."
       ]
     },
     {
       company: "Smile Direct Club",
       startYear: "2020",
-      endYear: "2021",
+      endYear: "2022",
       logo: 'assets/logos/sdc-l.svg',
       color: '#5700ff',
       bullets: [
