@@ -15,10 +15,10 @@ export class PortfolioSectionExperienceComponent implements OnInit {
       logo: 'assets/logos/verb-l.svg',
       color: 'black',
       bullets: [
-        "Conceptualized and implemented efficient CI/CD pipelines with AWS CodePipeline and GitHub, optimizing the software development lifecycle. Further enhanced deployment and scaling of applications using AWS CloudFront and Elastic Beanstalk, bolstering system reliability and accelerating delivery timelines.",
-        "Contributed significantly to the full-cycle development of premier products by deftly integrating Node.js, Angular, React, AWS, Redis, MongoDB, and Docker technologies, creating a powerful solutions that fulfilled customer requirements and supported business objectives.",
-        "Drove pivotal architectural enhancements in the Verb LIVE application, leveraging industry best practices to maximize performance, security, and scalability.",
-        "Architected, developed, and maintained high-performing serverless applications using Nx, AWS Lambda, and the Serverless framework, delivering cost-effective solutions that seamlessly aligned with the company's strategic objectives."
+        "Assumed technical leadership for the 'Live' project after departure of the original architect, managing the Node.js API and successfully implementing CI/CD pipelines using AWS CodePipeline.",
+        "Collaborated with the product team to translate product vision into actionable engineering tasks, leveraging Jira to create comprehensive tickets for developers, thereby improving team workflow and productivity.",
+        "Served as a technical mentor, providing guidance to junior engineers on the development and troubleshooting of our Angular front-end application, Node.js API, and AWS-based infrastructures, thus fostering best practices and enhancing overall team performance.",
+        "Independently drove critical architectural enhancements for the 'Live' project's Node.js API, leading to significant improvements in system performance and scalability. These changes allowed for a substantial increase in user capacity, accommodating hundreds of thousands of active users and drastically reducing API response times from 20 seconds to just 100ms."
       ]
     },
     {
