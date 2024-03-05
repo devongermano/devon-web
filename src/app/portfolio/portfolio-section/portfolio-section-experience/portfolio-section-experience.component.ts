@@ -12,8 +12,8 @@ export class PortfolioSectionExperienceComponent implements OnInit {
       company: "Hussle Technologies",
       startYear: "2022",
       endYear: "2024",
-      logo: 'assets/logos/hussle-l.svg',
-      color: '#1E1F27',
+      logo: 'assets/logos/hussle-w-small.svg',
+      color: '#036FFA',
       bullets: [
         "Assumed technical leadership for the 'Live' project after departure of the original architect, managing the Node.js API and successfully implementing CI/CD pipelines using AWS CodePipeline.",
         "Collaborated with the product team to translate product vision into actionable engineering tasks, leveraging Jira to create comprehensive tickets for developers, thereby improving team workflow and productivity.",
