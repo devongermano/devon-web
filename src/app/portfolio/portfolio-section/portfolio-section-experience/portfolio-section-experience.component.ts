@@ -15,11 +15,12 @@ export class PortfolioSectionExperienceComponent implements OnInit {
       logo: 'assets/logos/hussle-w-small.svg',
       color: '#036FFA',
       bullets: [
-        "Assumed technical leadership for the 'Live' project after departure of the original architect, managing the Node.js API and successfully implementing CI/CD pipelines using AWS CodePipeline.",
+        "Assumed technical leadership for the 'Live' project, leveraging Nx monorepo techniques to streamline code sharing and improve efficiency across our Angular front-end and Node.js APIs.",
+        "Served as a technical mentor, providing guidance to junior engineers on the development and troubleshooting of our Angular and React applications, Node.js APIs, and AWS-based infrastructures, thus fostering best practices and enhancing overall team performance.",
+        "Independently drove critical architectural enhancements for the 'Live' project's Node.js API, leading to significant improvements in system performance and scalability. These changes allowed for a substantial increase in user capacity, accommodating hundreds of thousands of active users and drastically reducing API response times from 20 seconds to just 100ms.",
+        "Led the migration of our life sciences division to a unified codebase with Turborepo, transitioning from disparate APIs and React applications to a consolidated monorepo approach.",
         "Collaborated with the product team to translate product vision into actionable engineering tasks, leveraging Jira to create comprehensive tickets for developers, thereby improving team workflow and productivity.",
-        "Served as a technical mentor, providing guidance to junior engineers on the development and troubleshooting of our Angular front-end application, Node.js API, and AWS-based infrastructures, thus fostering best practices and enhancing overall team performance.",
-        "Independently drove critical architectural enhancements for the 'Live' project's Node.js API, leading to significant improvements in system performance and scalability. These changes allowed for a substantial increase in user capacity, accommodating hundreds of thousands of active users and drastically reducing API response times from 20 seconds to just 100ms."
-      ]
+        ]
     },
     {
       company: "Smile Direct Club",
